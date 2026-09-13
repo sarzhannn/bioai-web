@@ -2,7 +2,7 @@ import { buildSystemPrompt } from "../lib/prompts.js";
 
 // Бесплатная модель Google Gemini. Если попадёшь в лимиты бесплатного
 // тарифа, попробуй заменить на "gemini-2.5-flash-lite" — она ещё легче.
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-3.6-flash";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
